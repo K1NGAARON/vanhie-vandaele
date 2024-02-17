@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 :root {
-    --primary: #93C90E;
+    --primary: #FAE208;
+    --accent: #0085D3;
     --white: #fff;
     --light-grey: #ECECEC;
     --black: #1C1C1C;
@@ -56,14 +57,20 @@ p {
     font-size: 16px;
 }
 
+.width-60 {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
 img {
     width: 100%;
     height: auto;
 }
 
 img.bg {
-    border-radius: var(--borderRadius);
-    box-shadow: 3px 3px 0px 2px var(--primary);
+    border-radius: 6px;
+    box-shadow: 3px 3px 0px 2px var(--accent);
 }
 
 .hidden {
@@ -126,7 +133,7 @@ img.bg {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    color: var(--white);
+    color: var(--black);
     background-color: var(--primary);
     border: 1px solid var(--primary);
     border-radius: 9px;
@@ -144,27 +151,6 @@ img.bg {
     cursor: pointer;
     transform: scale(1.05);
     transition: var(--transition);
-}
-
-.bg-overlay {
-    position: relative;
-}
-
-.bg-overlay::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/assets/layers/overlay.png');
-    background-size: contain;
-    opacity: 0.1;
-}
-
-.bg-overlay .row {
-    position: relative;
-    z-index: 1;
 }
 
 .wrapper {

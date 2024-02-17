@@ -105,7 +105,7 @@
 
 .diensten-wrapper .item .content h3,
 .diensten-wrapper .item .content a {
-    color: var(--white);
+    color: var(--black);
 }
 
 .diensten-wrapper .item .overlay {
