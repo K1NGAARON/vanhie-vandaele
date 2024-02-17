@@ -211,7 +211,7 @@ img.bg {
     border-radius: 0;
     height: 60px;
     outline: none;
-    font-size: 18px;
+    font-size: 14px;
     transition: border-bottom 200ms ease;
 }
 
@@ -221,7 +221,7 @@ img.bg {
 }
 
 .form-wrapper .btn {
-    color: var(--white);
+    color: var(--black);
     background-color: var(--primary);
     border-bottom: 1px solid var(--primary);
     transition: border-bottom 200ms ease;
@@ -268,7 +268,7 @@ img.bg {
     justify-content: center;
     align-items: center;
     color: var(--white);
-    background-color: var(--primary);
+    background-color: var(--black);
     border-radius: 50%;
     width: 30px;
     height: 30px;
