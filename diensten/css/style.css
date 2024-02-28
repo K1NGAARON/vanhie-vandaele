@@ -1,0 +1,19 @@
+.banner.section .row h1,
+.banner.section .row p {
+    max-width: 55%;
+    text-align: center;
+}
+
+.section ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+@media (max-width: 560px) {
+    .banner.section .row h1,
+    .banner.section .row p {
+        max-width: 100%;
+    }
+}
