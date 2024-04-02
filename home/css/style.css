@@ -102,6 +102,7 @@
 .diensten-wrapper .item .content h3,
 .diensten-wrapper .item .content a {
     color: var(--black);
+    text-align: center;
 }
 
 .diensten-wrapper .item .overlay {
