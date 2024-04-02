@@ -294,11 +294,11 @@
         flex: 1 0 40%;
     }
 
-    .form-wrapper {
-        padding: 0;
-    }
-
     .values-wrapper .item i {
         font-size: 30px;
+    }
+
+    .diensten-wrapper .item {
+        flex: 1 0 100%;
     }
 }
