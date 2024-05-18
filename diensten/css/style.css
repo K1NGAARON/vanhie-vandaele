@@ -1,3 +1,10 @@
+.banner {
+    background-image: url('/diensten/img/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .banner.section .row h1,
 .banner.section .row p {
     max-width: 55%;
