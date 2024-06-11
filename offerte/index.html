@@ -118,7 +118,7 @@
         </div>
         <div class="col">
             <div class="form-wrapper">
-                <form action="https://formspree.io/f/mbjnngdw" method="post" target="_blank" validate>
+                <form action="https://formspree.io/f/mbjnngdw" method="post" validate enctype=multipart/form-data>
                     <div class="form-row">
                         <input type="text" value="" name="first-name" placeholder="Voornaam*" required>
                         <input type="text" value="" name="last-name" placeholder="Familienaam*" required>
@@ -131,7 +131,7 @@
                     </div>
                     <div class="form-row">
                         <label style="color: var(--black);" for="technische-fiche">Technische fiche van warmtepomp</label>
-                        <input type="file" value="" name="technische-fiche" placeholder="Technische fiche van warmtepomp">
+                        <input type="file" name="upload">
                     </div>
                     <div class="form-row">
                         <input type="text" value="" name="warmteverlies-berekening" placeholder="Warmteverlies berekening">
