@@ -49,7 +49,7 @@ h4 {
 }
 
 a {
-    color: var(--primary);
+    color: var(--black);
     text-decoration: none;
 }
 
@@ -298,7 +298,7 @@ img.bg {
 }
 
 .cookie-banner-wrapper a {
-    color: var(--primary);
+    color: var(--black);
     margin-top: 20px;
 }
 
