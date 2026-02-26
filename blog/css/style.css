@@ -206,6 +206,11 @@
     margin-bottom: 16px;
 }
 
+.blog-post-content .blog-post-error {
+    color: #c00;
+    margin-bottom: 1rem;
+}
+
 .blog-post-content ul {
     margin: 16px 0;
     padding-left: 24px;

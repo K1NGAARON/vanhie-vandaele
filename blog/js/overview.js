@@ -24,7 +24,7 @@
   }
 
   function renderCard(post) {
-    const postUrl = 'post.html?slug=' + encodeURIComponent(post.slug);
+    const postUrl = post.slug + '.html';
     const dateFormatted = formatDate(post.date);
     return (
       '<article class="blog-card">' +

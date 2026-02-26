@@ -1,6 +1,6 @@
 # Blog
 
-Blogoverzicht en individuele berichten worden gevoed door Markdown-bestanden in `blog/posts/`.
+Het blog bestaat uit gewone HTML-pagina’s. Elk artikel heeft een eigen bestand (geen slug of query string).
 
 ## Nieuw artikel toevoegen
 
@@ -18,14 +18,21 @@ slug: mijn-artikel
 ---
 ```
 
-3. Schrijf de inhoud eronder in Markdown.
-4. Genereer de bloglijst (nodig voor de overzichtspagina):
+3. Schrijf de inhoud eronder in Markdown (koppen, vet, lijsten, links).
+4. Genereer de overzichtslijst én de HTML-pagina’s:
 
 ```bash
-node scripts/generate-blog-list.js
+node scripts/build-blog-posts.js
 ```
 
-De overzichtspagina laadt `blog/blogs.json`; de single post laadt het `.md`-bestand via de `slug` in de URL (`/blog/post.html?slug=mijn-artikel`).
+Dit script maakt `blog/blogs.json` (voor de overzichtspagina) en voor elk artikel een aparte pagina `blog/<slug>.html`, bijvoorbeeld `blog/mijn-artikel.html`. Die bestanden kun je gewoon deployen; er is geen JavaScript nodig om een artikel te tonen.
+
+## Bestanden
+
+- **blog/index.html** – Overzichtspagina (laadt `blogs.json` en toont kaarten met links naar `slug.html`).
+- **blog/post-template.html** – Sjabloon voor elke artikelpagina (niet handmatig bewerken; wordt door het buildscript gebruikt).
+- **blog/posts/*.md** – Brontekst van de artikelen.
+- **blog/<slug>.html** – Gegenereerde artikelpagina’s (na `node scripts/build-blog-posts.js`).
 
 ## Categorieën (voorbeelden)
 

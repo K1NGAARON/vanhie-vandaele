@@ -6,7 +6,15 @@
 
   function getSlug() {
     var params = new URLSearchParams(window.location.search);
-    return params.get('slug') || '';
+    var fromQuery = params.get('slug');
+    if (fromQuery) return fromQuery;
+    var hash = window.location.hash ? window.location.hash.slice(1).replace(/^\#/, '') : '';
+    if (!hash) return '';
+    try {
+      return decodeURIComponent(hash);
+    } catch (e) {
+      return hash;
+    }
   }
 
   function formatDate(dateStr) {
@@ -47,7 +55,7 @@
   }
 
   function renderRelatedCard(post) {
-    var postUrl = 'post.html?slug=' + encodeURIComponent(post.slug);
+    var postUrl = 'post.html#' + encodeURIComponent(post.slug);
     var dateFormatted = formatDate(post.date);
     return (
       '<article class="blog-card">' +
@@ -77,14 +85,19 @@
     return;
   }
 
-  var postUrl = 'posts/' + slug + '.md';
+  var basePath = window.location.pathname.replace(/\/[^\/]*$/, '/');
+  var postUrl = basePath + 'posts/' + slug + '.md';
+  var listUrl = basePath + 'blogs.json';
 
   Promise.all([
     fetch(postUrl).then(function (r) {
-      if (!r.ok) throw new Error('Post not found');
+      if (!r.ok) throw new Error('Post not found: ' + postUrl);
       return r.text();
     }),
-    fetch('blogs.json').then(function (r) { return r.json(); })
+    fetch(listUrl).then(function (r) {
+      if (!r.ok) throw new Error('List not found: ' + listUrl);
+      return r.json();
+    })
   ])
     .then(function (results) {
       var mdText = results[0];
@@ -125,7 +138,11 @@
       var relatedGrid = document.getElementById('blog-related-grid');
       if (relatedGrid) relatedGrid.innerHTML = related.map(renderRelatedCard).join('');
     })
-    .catch(function () {
-      window.location.href = 'index.html';
+    .catch(function (err) {
+      var contentEl = document.getElementById('blog-post-content');
+      if (contentEl) {
+        contentEl.innerHTML = '<p class="blog-post-error">Deze pagina kon niet worden geladen. Controleer of alle bestanden (posts/*.md en blogs.json) op de server staan.</p><p><a href="index.html" class="btn">Terug naar blog</a></p>';
+      }
+      if (typeof console !== 'undefined' && console.error) console.error('Blog post load failed:', err);
     });
 })();
