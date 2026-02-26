@@ -1,6 +1,6 @@
 (function () {
   const BLOG_GRID_ID = 'blog-grid';
-  const BLOGS_JSON = '/blog/blogs.json';
+  const BLOGS_JSON = 'blogs.json';
 
   const MONTHS_NL = [
     'januari', 'februari', 'maart', 'april', 'mei', 'juni',
@@ -24,7 +24,7 @@
   }
 
   function renderCard(post) {
-    const postUrl = '/blog/post.html?slug=' + encodeURIComponent(post.slug);
+    const postUrl = 'post.html?slug=' + encodeURIComponent(post.slug);
     const dateFormatted = formatDate(post.date);
     return (
       '<article class="blog-card">' +

@@ -47,7 +47,7 @@
   }
 
   function renderRelatedCard(post) {
-    var postUrl = '/blog/post.html?slug=' + encodeURIComponent(post.slug);
+    var postUrl = 'post.html?slug=' + encodeURIComponent(post.slug);
     var dateFormatted = formatDate(post.date);
     return (
       '<article class="blog-card">' +
@@ -67,24 +67,24 @@
 
   function renderCategories(categories) {
     return categories.map(function (cat) {
-      return '<a href="/blog/">' + escapeHtml(cat) + '</a>';
+      return '<a href="index.html">' + escapeHtml(cat) + '</a>';
     }).join('');
   }
 
   var slug = getSlug();
   if (!slug) {
-    window.location.href = '/blog/';
+    window.location.href = 'index.html';
     return;
   }
 
-  var postUrl = '/blog/posts/' + slug + '.md';
+  var postUrl = 'posts/' + slug + '.md';
 
   Promise.all([
     fetch(postUrl).then(function (r) {
       if (!r.ok) throw new Error('Post not found');
       return r.text();
     }),
-    fetch('/blog/blogs.json').then(function (r) { return r.json(); })
+    fetch('blogs.json').then(function (r) { return r.json(); })
   ])
     .then(function (results) {
       var mdText = results[0];
@@ -126,6 +126,6 @@
       if (relatedGrid) relatedGrid.innerHTML = related.map(renderRelatedCard).join('');
     })
     .catch(function () {
-      window.location.href = '/blog/';
+      window.location.href = 'index.html';
     });
 })();
