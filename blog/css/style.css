@@ -4,7 +4,7 @@
 .blog-hero {
     position: relative;
     min-height: 320px;
-    background-image: url('/diensten/img/banner.jpg');
+    background-image: url('/blog/img/hero.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
