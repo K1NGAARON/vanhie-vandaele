@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-       Pagina Niet Gevonden | Vanhie Vandaele
-    </title>
-    <meta name="description" content="">
+    <title>Onze blog | Vanhie Vandaele</title>
+    <meta name="description" content="Blijf op de hoogte van de laatste nieuwtjes, projecten en inzichten uit de wereld van boringen en grondwerken.">
 
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/header-footer.css">
     <link rel="stylesheet" href="/home/css/style.css">
+    <link rel="stylesheet" href="/blog/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
@@ -18,9 +17,6 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="/assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -30,38 +26,28 @@
     })(window,document,'script','dataLayer','GTM-MW78BC8Z');</script>
     <!-- End Google Tag Manager -->
 </head>
-<body>
+<body class="blog-page">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW78BC8Z"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
 <header>
-    <div class="section header" id="header">
+    <div class="section header active" id="header">
         <div class="row">
             <div class="container">
                 <a class="nav-logo" href="/">
-                    <img class="logo" src="/assets/logo/logo.png" alt="Logo">
+                    <img class="logo" src="/assets/logo/logo.png" alt="Vanhie Vandaele">
                 </a>
 
                 <nav class="navbar">
-                    <a class="nav" href="/">
-                        Home
-                    </a>
-                    <a class="nav" href="/over-ons/">
-                        Over ons
-                    </a>
-                    <a class="nav" href="/diensten/">
-                        Diensten
-                    </a>
-                    <a class="nav" href="/vacatures/ervaring-bouw/">
-                        Vacature
-                    </a>
+                    <a class="nav" href="/">Home</a>
+                    <a class="nav nav-active" href="/blog/">Blog</a>
+                    <a class="nav" href="/over-ons/">Over ons</a>
+                    <a class="nav" href="/contact/">Contact</a>
                 </nav>
                 <div class="button-wrapper">
-                    <a class="btn" href="/contact/">
-                        Contacteer ons
-                    </a>
+                    <a class="btn" href="/contact/">Contacteer ons</a>
                 </div>
             </div>
         </div>
@@ -69,7 +55,7 @@
         <div class="topnav-content-sm">
             <div class="header-col">
                 <a href="/">
-                    <img class="logo" src="/assets/logo/logo.png" alt="Logo">
+                    <img class="logo" src="/assets/logo/logo.png" alt="Vanhie Vandaele">
                 </a>
             </div>
             <div class="header-col">
@@ -80,85 +66,69 @@
         </div>
         <div class="small-menu-wrapper">
             <div class="small-menu-content">
-                <a class="nav" href="/">
-                    Home
-                </a>
-                <a class="nav" href="/over-ons/">
-                    Over ons
-                </a>
-                <a class="nav" href="/diensten/">
-                    Diensten
-                </a>
-                <a class="nav" href="/contact/">
-                    Contacteer ons
-                </a>
+                <a class="nav" href="/">Home</a>
+                <a class="nav" href="/blog/">Blog</a>
+                <a class="nav" href="/over-ons/">Over ons</a>
+                <a class="nav" href="/contact/">Contact</a>
             </div>
         </div>
     </div>
 </header>
-    
-<div class="section banner">
-    <div class="row flex-col align-start">
-        <h1>
-            Pagina niet gevonden | 404
+
+<div class="section blog-hero">
+    <div class="row flex-col center animate">
+        <h1 class="blog-hero-title">
+            <span class="blog-hero-title-onze">Onze</span> <span class="blog-hero-title-blog">blog</span>
         </h1>
-        <a href="/" class="btn">
-            Bezoek onze startpagina
-        </a>
+        <p class="blog-hero-subtitle">
+            Blijf op de hoogte van de laatste nieuwtjes, projecten en inzichten uit de wereld van boringen en grondwerken.
+        </p>
     </div>
     <div class="overlay"></div>
+</div>
+
+<div class="section blog-list-section grey">
+    <div class="row animate">
+        <div id="blog-grid" class="blog-grid">
+            <!-- Blog cards rendered by blog/js/overview.js -->
+        </div>
+    </div>
 </div>
 
 <footer>
     <div class="section footer" id="footer">
         <div class="row">
             <a href="/">
-                <img class="logo" src="/assets/logo/logo.png" alt="Logo">
+                <img class="logo" src="/assets/logo/logo.png" alt="Vanhie Vandaele">
             </a>
             <div class="footer-container">
                 <p class="legal">
-                    Boringen Vandaele BV
-                    <br>
-                    De Leiteweg 23/ 2
-                    <br>
-                    8020 Ruddervoorde
-                    <br>
+                    Boringen Vandaele BV<br>
+                    De Leiteweg 23/ 2<br>
+                    8020 Ruddervoorde<br>
                     BE 0453 298 717
                 </p>
                 <p class="legal">
-                    Bernard Delodder BV
-                    <br>
-                    De Leitweg 23A
-                    <br>
-                    8020 Ruddervoorde
-                    <br>
+                    Bernard Delodder BV<br>
+                    De Leitweg 23A<br>
+                    8020 Ruddervoorde<br>
                     BE 0438 120 096
                 </p>
             </div>
         </div>
         <div class="made-by">
-            <p>
-                Website by <a href="https://heph.be/" target="_blank">Heph Studios</a>
-            </p>
+            <p>Website by <a href="https://heph.be/" target="_blank">Heph Studios</a></p>
         </div>
     </div>
 </footer>
 
 <div class="cookie-banner-wrapper">
     <div class="cookie-banner-content">
-        <h4>
-            Privacy and cookie policy
-        </h4>
-        <p>
-            By using this website you agree to our terms and conditions regarding <a href="/legal/cookie-policy/">cookies</a>.
-        </p>
+        <h4>Privacy and cookie policy</h4>
+        <p>By using this website you agree to our terms and conditions regarding <a href="/legal/cookie-policy/">cookies</a>.</p>
         <div class="cookies-buttons">
-            <a id="more-info" href="/legal/cookie-policy/">
-                More info
-            </a>
-            <a id="accept-cookies">
-                I agree
-            </a>
+            <a id="more-info" href="/legal/cookie-policy/">More info</a>
+            <a id="accept-cookies">I agree</a>
         </div>
     </div>
 </div>
@@ -167,5 +137,6 @@
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="/js/global.js"></script>
+    <script src="/blog/js/overview.js"></script>
 </body>
 </html>

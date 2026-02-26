@@ -81,7 +81,7 @@
 }
 
 .diensten-wrapper .item {
-    flex: 1 0 40%;
+    flex: 1 0 30%;
     display: flex;
     flex-direction: column;
     position: relative;
