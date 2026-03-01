@@ -12,6 +12,24 @@ const path = require('path');
 const BLOG_DIR = path.join(__dirname, '..', 'blog');
 const POSTS_DIR = path.join(BLOG_DIR, 'posts');
 const TEMPLATE_PATH = path.join(BLOG_DIR, 'post-template.html');
+const POOL_DIR = path.join(BLOG_DIR, 'img', 'pool');
+const POOL_URL_PREFIX = '/blog/img/pool/';
+
+const IMAGE_EXT = ['.jpg', '.jpeg', '.png', '.webp', '.gif'];
+
+function getImagePool() {
+  if (!fs.existsSync(POOL_DIR)) return [];
+  return fs.readdirSync(POOL_DIR)
+    .filter((f) => IMAGE_EXT.includes(path.extname(f).toLowerCase()))
+    .sort();
+}
+
+function pickImageFromPool(slug, pool) {
+  if (pool.length === 0) return '';
+  let n = 0;
+  for (let i = 0; i < slug.length; i++) n += slug.charCodeAt(i);
+  return POOL_URL_PREFIX + pool[n % pool.length];
+}
 
 const MONTHS_NL = [
   'januari', 'februari', 'maart', 'april', 'mei', 'juni',
@@ -174,11 +192,16 @@ for (const post of posts) {
   const title = meta.title || post.title || 'Blog';
   const dateFormatted = formatDate(meta.date || post.date);
   const breadcrumbTitle = shortTitle(title);
+  const heroImage = post.image || '';
 
   const related = posts.filter((p) => p.slug !== slug).slice(0, 3);
   const relatedHtml = related
     .map((p) => cardHtml(p, p.slug + '.html'))
     .join('\n');
+
+  const heroStyle = heroImage
+    ? ' style="background-image: url(\'' + escapeHtml(heroImage) + '\');"'
+    : '';
 
   let html = template
     .replace(/\{\{TITLE\}\}/g, escapeHtml(title))
@@ -188,7 +211,8 @@ for (const post of posts) {
     .replace(/\{\{DATE\}\}/g, escapeHtml(dateFormatted))
     .replace(/\{\{CONTENT_HTML\}\}/g, contentHtml)
     .replace(/\{\{CATEGORIES_HTML\}\}/g, categoriesHtml)
-    .replace(/\{\{RELATED_HTML\}\}/g, relatedHtml);
+    .replace(/\{\{RELATED_HTML\}\}/g, relatedHtml)
+    .replace(/\{\{HERO_STYLE\}\}/g, heroStyle);
 
   const outPath = path.join(BLOG_DIR, slug + '.html');
   fs.writeFileSync(outPath, html, 'utf8');

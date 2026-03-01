@@ -206,6 +206,16 @@
     margin-bottom: 16px;
 }
 
+.blog-post-content a {
+    font-weight: 700;
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.blog-post-content a:hover {
+    color: var(--accent);
+}
+
 .blog-post-content .blog-post-error {
     color: #c00;
     margin-bottom: 1rem;
@@ -230,6 +240,10 @@
     background: var(--light-grey);
     border-radius: 8px;
     padding: 24px;
+}
+
+.blog-sidebar-card:nth-child(2) {
+    display: none;
 }
 
 .blog-sidebar-card h3 {

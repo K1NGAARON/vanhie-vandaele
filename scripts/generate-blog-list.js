@@ -11,6 +11,25 @@ const path = require('path');
 
 const POSTS_DIR = path.join(__dirname, '..', 'blog', 'posts');
 const OUTPUT_FILE = path.join(__dirname, '..', 'blog', 'blogs.json');
+const POOL_DIR = path.join(__dirname, '..', 'blog', 'img', 'pool');
+const POOL_URL_PREFIX = '/blog/img/pool/';
+
+const IMAGE_EXT = ['.jpg', '.jpeg', '.png', '.webp', '.gif'];
+
+function getImagePool() {
+  if (!fs.existsSync(POOL_DIR)) return [];
+  return fs.readdirSync(POOL_DIR)
+    .filter((f) => IMAGE_EXT.includes(path.extname(f).toLowerCase()))
+    .sort();
+}
+
+function pickImageFromPool(slug, pool) {
+  if (pool.length === 0) return '';
+  let n = 0;
+  for (let i = 0; i < slug.length; i++) n += slug.charCodeAt(i);
+  const index = n % pool.length;
+  return POOL_URL_PREFIX + pool[index];
+}
 
 function parseFrontmatter(content) {
   const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
@@ -29,6 +48,7 @@ function parseFrontmatter(content) {
   return { meta, body: match[2].trim() };
 }
 
+const pool = getImagePool();
 const files = fs.readdirSync(POSTS_DIR).filter((f) => f.endsWith('.md'));
 const posts = [];
 
@@ -37,13 +57,14 @@ for (const file of files) {
   const content = fs.readFileSync(filePath, 'utf8');
   const { meta } = parseFrontmatter(content);
   const slug = meta.slug || path.basename(file, '.md');
+  const image = meta.image || pickImageFromPool(slug, pool);
   posts.push({
     slug,
     title: meta.title || 'Untitled',
     date: meta.date || '',
     category: meta.category || 'NIEUWS',
     excerpt: meta.excerpt || '',
-    image: meta.image || '',
+    image,
   });
 }
 

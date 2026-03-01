@@ -1,10 +1,10 @@
 ---
-title: Geothermische energie: de toekomst van duurzaam verwarmen
+title: "Geothermische energie: de toekomst van duurzaam verwarmen"
 date: 2025-02-08
 category: GEOTHERMIE
 excerpt: Geothermische boringen vormen de basis van een duurzaam verwarmingssysteem. Lees waarom steeds meer gezinnen en bedrijven kiezen voor deze betrouwbare oplossing.
-image: /diensten/geothermische-boringen/img/geothermische-boringen-1.jpg
 slug: geothermische-energie-toekomst-duurzaam-verwarmen
+image: /diensten/geothermische-boringen/img/geothermische-boringen-1.jpg
 ---
 
 Geothermische energie wint aan populariteit als duurzame oplossing voor verwarming en koeling. De ondergrond biedt een stabiele temperatuur het hele jaar door, ideaal voor een warmtepomp.
@@ -21,3 +21,5 @@ Door geothermische boringen halen we energie uit de aarde. Een gesloten leidinge
 - Onderhoudsarm en betrouwbaar
 
 Vraag een offerte aan voor uw geothermisch project.
+
+Neem [vrijblijvend contact](/contact/) op voor een offerte of meer informatie.
