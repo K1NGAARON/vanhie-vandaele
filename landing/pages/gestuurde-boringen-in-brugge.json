@@ -1,0 +1,97 @@
+{
+  "title": "Gestuurde Boringen In Brugge",
+  "slug": "gestuurde-boringen-in-brugge",
+  "meta_description": "Horizontaal gestuurde boringen in Brugge en omgeving. Geen sleufwerken, minimale overlast. Vraag een vrijblijvende offerte aan bij Vanhie Vandaele.",
+  "hero": {
+    "title": "Gestuurde Boringen In Brugge",
+    "subtitle": "Horizontaal gestuurde boringen zonder sleufwerken. Snel, betrouwbaar en met minimale overlast voor uw project in Brugge en omgeving.",
+    "image": "/landing/img/hero-gestuurde-boringen.jpg",
+    "cta_text": "Ontdek Meer",
+    "cta_url": "#voordelen",
+    "cta_secondary": {
+      "label": "Bel ons: 050 79 29 62",
+      "url": "tel:050792962",
+      "icon": "phone"
+    },
+    "rating": {
+      "text": "Actief sinds de jaren 60",
+      "score": "4.9/5"
+    }
+  },
+  "features": [
+    { "icon": "clock", "text": "Snelle doorlooptijd en planning op maat" },
+    { "icon": "map-marker-alt", "text": "Actief in Brugge en ruime omgeving" },
+    { "icon": "tools", "text": "Moderne technieken zonder open sleuven" },
+    { "icon": "handshake", "text": "Ervaren team met jarenlange expertise" }
+  ],
+  "sections": [
+    {
+      "type": "text_image",
+      "title": "Horizontaal gestuurde boringen zonder sleufwerken",
+      "body": "Voordelen: Geen open sleuven, minder overlast voor omgeving en verkeer. Snel en precies onder wegen, gebouwen of waterlopen. Ideaal voor leidingen, kabels en nutsvoorzieningen.",
+      "image": "/landing/img/gestuurde-boring-machine.jpg",
+      "image_left": false
+    },
+    {
+      "type": "text_image",
+      "title": "Waarom kiezen voor onze aanpak",
+      "body": "Wij zetten in op betrouwbare technieken en duidelijke communicatie. Van eerste verkennend gesprek tot oplevering staat uw project centraal. Vraag vrijblijvend advies aan.",
+      "image": "/landing/img/boring-detail.jpg",
+      "image_left": true
+    }
+  ],
+  "use_cases": {
+    "title": "Wanneer kiest u voor een boring?",
+    "items": [
+      { "icon": "pen", "text": "Aanleg of vernieuwing van nutsvoorzieningen onder de weg" },
+      { "icon": "pen", "text": "Glasvezel of kabels leggen zonder open graafwerken" },
+      { "icon": "pen", "text": "Doorboring onder water, rijweg of spoorweg" },
+      { "icon": "pen", "text": "Renovatie of uitbreiding van bestaande leidingen" },
+      { "icon": "pen", "text": "Projecten met strenge eisen voor overlast en doorlooptijd" },
+      { "icon": "pen", "text": "Snel een betrouwbare partner nodig in Brugge en omgeving" }
+    ],
+    "cta_text": "Vraag Nu Advies",
+    "cta_url": "/contact/"
+  },
+  "company": {
+    "title": "Waarom kiezen voor Vanhie-Vandaele?",
+    "image": "/landing/img/team-vanhie-vandaele.jpg",
+    "features": [
+      { "icon": "award", "text": "Jarenlange ervaring in gestuurde boringen" },
+      { "icon": "users", "text": "Vaste ploeg met gespecialiseerde kennis" },
+      { "icon": "cogs", "text": "Moderne machines en veilige werkwijze" },
+      { "icon": "comments", "text": "Duidelijke afspraken en communicatie" }
+    ]
+  },
+  "location": {
+    "title": "Actief in Brugge & omgeving",
+    "text": "Wij voeren gestuurde boringen uit in Brugge en de ruime regio. Heeft u een project of wilt u meer informatie? Neem gerust contact op voor een vrijblijvend gesprek of offerte.",
+    "contact_url": "/contact/",
+    "contact_label": "Contacteer Ons",
+    "phone": "+32 50 00 00 00",
+    "phone_label": "Bel Ons",
+    "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2512.560900700001!2d3.2044!3d51.1014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDA2JzA1LjAiTiAzwrAxMiczMTYuMCJF!5e0!3m2!1snl!2sbe!4v1630000000000!5m2!1snl!2sbe"
+  },
+  "faq": {
+    "title": "Veelgestelde vragen over horizontaal gestuurde boringen zonder sleufwerken",
+    "items": [
+      {
+        "question": "Wat is een gestuurde boring?",
+        "answer": "Bij een gestuurde boring wordt onder de grond een boring uitgevoerd zonder een open sleuf te graven. Een boor kop wordt vanaf een startput horizontaal door de grond gestuurd tot aan een ontvangstput. Ideaal onder wegen, water of bebouwing."
+      },
+      {
+        "question": "Voor welke toepassingen wordt het gebruikt?",
+        "answer": "Gestuurde boringen worden o.a. gebruikt voor riolering, waterleidingen, gas, elektriciteit, glasvezel en andere nutsvoorzieningen. Alles waarbij leidingen of kabels onder obstakels door moeten."
+      },
+      {
+        "question": "Hoe lang duurt een gemiddeld project?",
+        "answer": "De doorlooptijd hangt af van lengte, diameter en grondomstandigheden. Wij geven u bij een eerste gesprek een inschatting en houden u op de hoogte van de planning."
+      },
+      {
+        "question": "Werkt u ook in Brugge centrum?",
+        "answer": "Ja, wij zijn actief in Brugge en omgeving. Neem contact op met uw adres of projectgegevens, dan bekijken we de mogelijkheden."
+      }
+    ]
+  },
+  "contact_section_title": "Meer Contact Op Voor Een Vrijblijvende Offerte"
+}
