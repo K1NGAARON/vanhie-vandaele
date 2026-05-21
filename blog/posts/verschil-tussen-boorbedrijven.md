@@ -16,7 +16,7 @@ Boorwerken zitten vol variabelen die niet altijd in één getal te vangen zijn. 
 
 Sommige boorbedrijven prijzen conservatief: ze rekenen extra marge in voor moeilijke lagen, spoelwaterbehandeling of onverwachte stilstand. Andere focussen op een scherpe instapprijs en rekenen “onvoorzien” later aan. Beide aanpakken kunnen correct zijn, zolang het transparant is.
 
-En dan is er nog het doel van de boring. Een geothermische boring vraagt een andere kwaliteitsbewaking dan een eenvoudige verkennende boring, en een waterwinning brengt andere verplichtingen mee dan een reeks kleine proefboringen.
+En dan is er nog het doel van de boring. Een waterwinning brengt andere verplichtingen mee dan een reeks kleine proefboringen, en een verkennende boring vraagt weer andere kwaliteitsbewaking.
 
 ## Eerst scherpstellen: wat wil je precies laten boren?
 
@@ -26,7 +26,7 @@ Denk daarbij niet alleen aan “hoe diep” of “hoeveel boringen”, maar ook 
 
 Een korte scopebeschrijving die je aan elk boorbedrijf identiek bezorgt, helpt enorm. Neem hierin minstens dit op, liefst aangevuld met foto’s van de toegang en een plan van de locatie.
 
-- Type boring (water, geothermie, bodemonderzoek)
+- Type boring (water, bodemonderzoek)
 - Aantal boringen en gewenste diepte
 - Diameter of vereiste capaciteit
 - Locatie en toegang (poortbreedte, oprit, obstakels)
@@ -104,7 +104,7 @@ Als je dat gedaan hebt, wordt de keuze vaak eenvoudiger. Niet omdat één offert
 
 ## Extra aandachtspunten bij verschillende types boringen
 
-Niet elke boring vraagt dezelfde accenten in de offerte. Bij geothermie wil je vooral zekerheid over afdichting, groutkwaliteit, diepte en de koppeling met de installateur. Bij waterputten is debiet, filteropbouw en bescherming tegen vervuiling cruciaal. Bij sonderingen of bodemonderzoek telt reproduceerbaarheid, rapportage en traceerbaarheid van stalen.
+Niet elke boring vraagt dezelfde accenten in de offerte. Bij waterputten is debiet, filteropbouw en bescherming tegen vervuiling cruciaal. Bij sonderingen of bodemonderzoek telt reproduceerbaarheid, rapportage en traceerbaarheid van stalen.
 
 Vraag bij twijfel aan het boorbedrijf om expliciet te vermelden welke normering, interne procedures of meetmethodes men volgt. Dat hoeft geen dik technisch dossier te zijn. Eén duidelijke paragraaf in de offerte kan al volstaan om interpretatieverschillen te vermijden.
 

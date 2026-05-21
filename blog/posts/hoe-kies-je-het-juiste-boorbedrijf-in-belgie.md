@@ -20,7 +20,7 @@ En ja, de goedkoopste offerte kan achteraf de duurste blijken, wanneer er extra�
 
 ## Bepaal eerst je boordoel
 
-Voor je bedrijven vergelijkt, loont het om jouw doel scherp te krijgen. “Boren” is een verzamelnaam. De vereisten voor een geothermische boring verschillen sterk van een [bronbemaling](/diensten/bronbemaling/), een grondonderzoek of micropalen.
+Voor je bedrijven vergelijkt, loont het om jouw doel scherp te krijgen. “Boren” is een verzamelnaam. De vereisten voor een waterputboring verschillen sterk van een [bronbemaling](/diensten/bronbemaling/), een grondonderzoek of micropalen.
 
 Een korte denkoefening helpt: wat wil je bereiken, welke prestaties verwacht je, en welke randvoorwaarden zijn niet onderhandelbaar (plaats, timing, lawaaibeperkingen, bereikbaarheid)?
 
@@ -96,7 +96,7 @@ Een boorproject staat zelden alleen. Het hangt samen met ruwbouw, technieken, ve
 
 Goede afspraken gaan over wie wanneer toegang nodig heeft, wat de minimale werkruimte is, en welke voorbereidingen jij moet treffen (poort vrijmaken, auto’s weg, binnenkraan beschikbaar, stroompunt). Het helpt als dit in één duidelijke werfinstructie staat.
 
-Nazorg is minstens even belangrijk. Denk aan het aanleveren van meetrapporten, as-built gegevens van boorpunten, of advies bij de eerste opstart (bij geothermie of waterwinning). Een betrouwbaar bedrijf blijft bereikbaar wanneer er vragen opduiken na de uitvoering, ook als het geen groot probleem is.
+Nazorg is minstens even belangrijk. Denk aan het aanleveren van meetrapporten, as-built gegevens van boorpunten, of advies bij de eerste opstart bij waterwinning. Een betrouwbaar bedrijf blijft bereikbaar wanneer er vragen opduiken na de uitvoering, ook als het geen groot probleem is.
 
 ## Snelle checklist voor je gesprek
 

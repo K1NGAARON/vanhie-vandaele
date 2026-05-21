@@ -6,7 +6,7 @@ excerpt: Wie dat vooraf goed aanpakt, wint tijd. Een correcte melding of omgevin
 slug: boren-in-de-grond-milieuregels-en-vergunningen-in-vlaanderen
 ---
 # Boren in de grond: milieuregels en vergunningen in Vlaanderen
-Boren in de grond lijkt vaak een puur technische stap: je hebt een plan, een machine en een doel (funderingen, een waterput, een bodemonderzoek, geothermie). In Vlaanderen komt daar bijna altijd een tweede laag bij: milieuregels die de ondergrond beschermen en buren, waterlopen en natuur mee in rekening nemen.
+Boren in de grond lijkt vaak een puur technische stap: je hebt een plan, een machine en een doel (funderingen, een waterput, een bodemonderzoek). In Vlaanderen komt daar bijna altijd een tweede laag bij: milieuregels die de ondergrond beschermen en buren, waterlopen en natuur mee in rekening nemen.
 
 Wie dat vooraf goed aanpakt, wint tijd. Een correcte melding of omgevingsvergunning, een doordachte boormethode en aandacht voor grondwater en bodemkwaliteit maken het verschil tussen vlot uitvoeren en onverwachte stilstand.
 
@@ -32,7 +32,7 @@ Ook lokale elementen spelen mee. Gemeenten kunnen bijkomende aandachtspunten heb
 
 ## Vergunning, melding of geen van beide?
 
-Er is geen “één regel” voor alle boringen. Een kleine geotechnische boring voor een stabiliteitsstudie is iets anders dan een grondwaterwinning voor proceswater, en opnieuw iets anders dan een gesloten geothermische boring.
+Er is geen “één regel” voor alle boringen. Een kleine geotechnische boring voor een stabiliteitsstudie is iets anders dan een grondwaterwinning voor proceswater.
 
 Wat in de praktijk helpt, is het onderscheid tussen het doel van de boring en de effecten errond: onttrek je grondwater, breng je stoffen in de ondergrond, verander je de waterhuishouding, of is het puur onderzoek?
 
@@ -87,14 +87,6 @@ Wie het praktisch wil houden, kan de kern van een “goede bemalingsaanpak” sa
 - **Debiet beperken**: bouwtechniek en bronopstelling afstemmen op minimale verlaging.
 - **Water een bestemming geven**: hergebruik, infiltratie of lozing kiezen op basis van kwaliteit en lokale mogelijkheden.
 - **Effecten opvolgen**: peilmetingen en visuele controles, zeker nabij kwetsbare gebouwen of natuur.
-
-## Geothermie: verwarmen met respect voor de ondergrond
-
-Gesloten geothermische boringen voor warmtepompen zijn populair: ze vragen weinig ruimte en leveren stabiele energie. Toch zijn er milieuregels, vooral om grondwaterlagen te beschermen en interferentie tussen systemen te vermijden.
-
-Belangrijke thema’s zijn de afdichting rond de sondes, het type circulatievloeistof, de boordiepte en de afstand tot gevoelige zones. In druk bebouwde wijken kan ook “thermische drukte” ontstaan: meerdere installaties in dezelfde ondergrond beïnvloeden elkaars rendement en kunnen lokaal het temperatuurveld wijzigen.
-
-Wie geothermie professioneel voorbereidt, denkt dus verder dan het vermogen van de warmtepomp. De ondergrond is het tweede deel van het systeem, en vraagt dezelfde zorg als de techniek in de kelder.
 
 ## Bodemonderzoek, verdachte terreinen en saneringslogica
 

@@ -42,7 +42,7 @@ De keuze tussen PV en zonneboiler is zelden ideologisch; ze hangt af van je warm
 
 Wie van fossiele warmte naar duurzaam wil, komt vaak bij de warmtepomp uit. Een warmtepomp “maakt” geen warmte zoals een ketel, maar verplaatst warmte van buiten naar binnen. Dat klinkt eenvoudig, maar het maakt ze juist krachtig: met 1 kWh elektriciteit kan je meerdere kWh warmte leveren, afhankelijk van buitentemperatuur en afgiftetemperatuur.
 
-De klassieke types zijn lucht-water (warmte uit buitenlucht naar watercircuit), grond-water (geothermie) en lucht-lucht (meestal als airco die kan verwarmen). In België zie je lucht-water het vaakst omdat ze relatief compact is en geen boringen vraagt.
+De klassieke types zijn lucht-water (warmte uit buitenlucht naar watercircuit) en lucht-lucht (meestal als airco die kan verwarmen). In België zie je lucht-water het vaakst omdat ze relatief compact is en geen boringen vraagt.
 
 Waar je best op let bij de keuze:
 

@@ -42,7 +42,6 @@ Plaats 6–7 afbeeldingen in **blog/img/pool/** (jpg, png of webp). Bij het bouw
 ## Categorieën (voorbeelden)
 
 - WATERPUTBORINGEN
-- GEOTHERMIE
 - BRONBEMALING
 - GESTUURDE BORINGEN
 - NIEUWS
